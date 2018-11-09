@@ -1,4 +1,5 @@
 #! /bin/bash
+# Jackson Goldberg
 # username.sh
 echo "The only characters you can use to make a username are: "
 echo "	lowercase letters"
