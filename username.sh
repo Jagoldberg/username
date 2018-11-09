@@ -10,9 +10,10 @@ echo "Enter a username: "
 read username
 while echo $username | egrep -v "^[a-z0-9][^A-Z][(_)]{3,12}$" > /dev/null 2>&1
 do
-	echo "You must enter a valid ZIP code - five digits only!"
-	echo "Enter a five-digit ZIP code: "
+	echo "You must enter a valid username!"
+	echo "Enter a username: "
 	read ZIP
 done
+echo "Username is valid"
 echo "Thank you"
 
